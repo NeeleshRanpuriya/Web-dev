@@ -1,0 +1,180 @@
+body {
+  padding: 72px 0px 0px 0px;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 50px;
+  padding: 90px 0px 16px 0px;
+  color: #1877f2;
+  font-weight: bold;
+  font-size: 3em;
+  margin: 2px;
+}
+
+h1::first-letter {
+  font-size: 60px;
+}
+
+.main {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 0px 255px 0px;
+  gap: 50px;
+  margin: 0px 260px 0px 260px;
+}
+h2{
+  width: 630px;
+  height: 90px;
+  margin-top: 5px;
+}
+.data {
+  /* width: 1000px; */
+  position:flex;
+  top: 120px;
+  font-size: larger;
+  margin: 0px 40px 0px 0px;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-weight: normal;
+
+}
+
+.box {
+  background: white;
+  padding: 20px;
+  margin-top: 40px;
+  height: 350px;
+  width: 400px;
+  font-size: 12px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: large;
+  padding-left: 10px;
+}
+
+#login {
+  width: 410px;
+  height: 50px;
+  justify-content: center;
+  margin: 5px 0;
+  border-radius: 10px;
+  background-color: #1877f2;
+  font-size:x-large;
+  font-weight: bold;
+  border: none;
+  color: white;
+ padding: 0px 10px 0px 10px;
+}
+#login:hover {
+  cursor: pointer;  
+  background-color: #166fe5;
+}
+
+.Forget {
+    padding-top: 20px;
+  text-decoration: none;
+  font-size: medium;
+  color: #1877f2;
+  margin-top: 16px;
+}
+.Forget:hover {
+  text-decoration: underline;
+}
+
+.create {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #42b72a;
+  color: white;
+  font-weight: bolder;
+  margin: 20px auto;
+  text-decoration: none;
+}
+.create:hover {
+  cursor: pointer;  
+  background-color: #36a420;
+}
+
+.account {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+  color: black;
+}
+
+.create-account {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.create-account:hover {
+  text-decoration: underline;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+ .footer {
+  background-color: white;
+  width: 81%;
+  /* max-width: 1000px; */
+  padding: 20px 10px 0px 300px;
+  color: gray;
+  font-size: 14px;
+  text-align: center;
+}
+
+.lang-links,
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 5px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 15px;
+}
+
+.lang-links li a,
+.footer-links li a {
+  text-decoration: none;
+  color: gray;
+}
+
+.lang-links li a:hover,
+.footer-links li a:hover {
+  text-decoration: underline;
+}
+
+.footer-line {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+.copy {
+  /* margin-top: 10px; */
+  font-size: 12px;
+  color: gray;
+   text-align: left;
+}

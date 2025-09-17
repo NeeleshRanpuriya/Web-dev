@@ -1,0 +1,51 @@
+*{
+    font-family:'Courier New', Courier, monospace;
+    /* background-color: rgb(128, 128, 128); */
+}
+h1{
+    color: #1b74e4;
+    width: 200px;
+    /* border: 2px solid black; */
+    display: inline-block;
+    margin-top: 10px;
+}
+h1::first-letter{
+    font-size: 40px;
+}
+#Search-Button{
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+#User-Button{
+    /* background-color: aqua; */
+    border-radius: 20px;
+    background-color: white;
+    /* border: 5px double wheat; */
+}
+label{
+    font-weight: bold;
+}
+
+button:checked{
+    font-weight: bold;
+}
+
+#search{
+    border-radius: 50px;
+    width: 300px;
+    height: 30px;
+    border:2px solid white;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 3px whitesmoke;
+}
+span{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    width: 180px;
+    display: inline;
+    position:relative;
+    left: 75%;
+    
+}

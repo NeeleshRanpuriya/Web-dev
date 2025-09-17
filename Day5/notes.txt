@@ -1,0 +1,78 @@
+CSS:
+  Selectors-> h1{
+       peroperty:value;  nin terms of pair
+  }
+
+  1) Inline Style
+      <h1 Style="colour:red;"></h1>
+      <h1 style="color: pink; font-size: 20px; " >This is Heading One</h1>  <!-- This is inline Css -->
+  2) Using Style Tag:
+      <style>
+        h1{
+            color: green;
+        }
+      </style>
+
+  3) External Style:- Sheet Write a saperate document & link it with HTML file
+      Index.HTML
+      index.Css
+      Link HTML file Link Css file THrough <link rel="stylesheet" ref="style.css">
+
+Properties:
+1: Colour->
+  Named System: Total 140 Named Colour in present CSS Expection Millions Of colour not have name
+      colour: purple;
+  Hexadecimal System: Haxadecimal to Hex It is more compate as compare rgb 
+      color : #ffff00  first 2 is red 2nd 2 green 3rd 2 is blue
+      color: #090a;
+  RBG colour system : 
+      color: rgba(255, 0, 0,0.9);
+      color: hsla(30, 100%, 50%, 0.6);
+      color: revert;
+  .) background Colour
+     background-color="red";
+
+2: Text Properties
+
+   text-align (alignment set direction Left,Right,Center  Support Every Type of Langueges Start End)
+      Left
+      Right
+      Center    all use un vs msword
+      End
+      Start
+      Justify
+
+   Font-Weight (bold & light) Range[100-900]
+       Normal
+       bold
+       100-900 range
+       bolder
+       light
+
+   Text-decoration: underline And line THrough Remove anchor tag underline
+     underline
+       colour
+       wavy
+       dotted
+     overline
+     line THrough
+
+   Line-height
+     line-height:Normal
+     line-height:2.5  -> 2.5*Normal Units em,px,%
+   latter-spacing: Distance b/w Two latters & characters Unit is pixal px
+    latter-spacing:10px;
+     
+   *Important font-size:
+      font-family:x,y,z; Type Of font : spesify a priority list of one or more font family names
+      font-size:50px
+
+    Text-transformation:uppercase;
+
+Units In CSS:
+  Abslute px,pt,pc,cm,mm,in  FIxed Cant change
+   1 inch 96px
+   can't use in responsive websides like mobile laptop m use hone wali web sides
+  Relative %,em,rem,ch,vh,vw+many more
+
+    

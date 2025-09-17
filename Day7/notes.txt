@@ -1,0 +1,66 @@
+Box Modal in Css:
+  height:
+    div{
+        height:100px; 1inch=96px
+    }
+  width
+  boarder:
+    div{
+        boarder-width:10px;
+        boarder-style:
+        boarder:color:
+    }
+      border shorthand:
+        width|style|color
+
+      Border Radius:
+       box To circle:
+       input{
+        border-radius:10px;
+       }
+  Padding:
+    Padding-left:
+    Padding-Right:
+    Padding-top:
+    Padding-bottom:
+
+    Shorthand:
+     Padding:5px; all four sides;
+     padding: top bottom & left and Right;
+     padding: top|left&right|bottom
+     padding: top|right|bottom|left
+
+  Margin:distance b/w two box or outside of the order border to border distance
+    Margin-left:
+    Margin-Right:
+    Margin-top:
+    Margin-bottom:
+
+    Shorthand:
+     Margin:5px; all four sides;
+     Margin: top&bottom | left&Right;
+     Margin: top|left&right|bottom
+     Margin: top|right|bottom|left
+
+Display property
+ Display:inline;
+ Display:block;
+     h1{
+    Display:inline;
+    }
+
+    Display:inline-block;
+
+Relative units:
+  % : set size as relavent parents objects
+  text related properth is EM
+  font size of the element itself, in case of other properties
+
+  Drawback of Em:
+   snow wall in effect:
+
+   Eem unit:(Root element):
+       
+
+
+ 

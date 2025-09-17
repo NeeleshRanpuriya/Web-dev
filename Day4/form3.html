@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- action connect Data base -->
+    <form action="/action">
+        <div>
+            <label for="Username">Enter Your Name</label>
+            <input type="text" placeholder="Enter Your Name" id="Username" name="Username">
+        </div>
+
+        <div>
+            <label for="password">Enter Your Password</label>
+            <input type="password" placeholder="Enter Your password" id="password" name="Password">
+        </div>
+    </form>
+    <hr>    
+    <!-- Radio button Name Is same To only One tick -->
+    <form action="/action">
+        <input type="radio" name="fruits" id="Banana">
+        <label for="Banana">Banana</label>
+
+        <input type="radio" name="fruits" id="Apple">
+        <label for="Apple">Apple</label>
+
+    <!-- Drop Down For selection & Attribute is Options Option attribute is valuse  -->
+       <div>
+        Education
+         <select name="Professor" id="Edu">
+            <option value="B.tech">B.tech</option>
+            <option value="BSC">BSC</option>
+            <option value="MSC">MSC</option>
+            <option value="Other">Other</option>
+         </select>
+                 
+        </div>
+
+        <div>
+        <!-- Ranges -->
+            <label for="volume">Volume</label>
+            <input type="range" min="0" max="120" name="music" id="volume" value="100">
+        </div>
+           <button>Submit</button>
+    </form>
+      <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="Search In youtube" name="search_query">
+        <button style="color: pink; background-color: blue;">Submit</button>
+    </form>
+</body>
+</html>

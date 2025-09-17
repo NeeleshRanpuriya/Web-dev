@@ -1,0 +1,101 @@
+Selectors:
+  Universal Selector
+     *{
+
+     }
+   
+   Element Selectors:
+   h3{
+
+   }
+
+   h1,h2,h3{
+
+   }
+
+   Id selectors:
+
+     #myid{
+
+     }
+
+   Class Selectors:
+
+   .{
+
+   }
+
+
+   Desending Selectors
+
+   div p{
+
+   }
+
+
+adjastant sibling Combinators:
+  p+h3{
+    <p></p>
+    <3></h3>
+    All heading After paragraph
+  }
+
+Child Combinators
+ span>button{
+
+ }
+
+Attribute Selector:
+  input[attr="vlaue"]{
+
+  }
+
+Pseudo Class
+  :hower
+  :action
+  :checked
+  :nth-of-Type
+  h1:hower{
+    
+  }
+  checked
+  input[type="radio"]:checked+label{
+    color: #b92b27;
+    font-weight: bold;
+}
+  nth-of-type(2n)
+ .post:nth-of-type(2n){
+   background-color: blanchedalmond;
+ }
+
+Pseudo Elements:
+  ::First-latter  -----Quora  only Q change
+     h1::first-latter{
+      color:black;
+      font-size=40px;
+     }
+  ::first-line
+  ::first-selection
+
+CSS cascading property
+     h3{
+       background-color=red;
+     }
+     h3{
+        background-colour=blue; 
+     }
+    Selector Spesifity: || id>class>Element ||
+
+    ---   ------------     -------------
+    id    Class             Element&
+          attribute&        Pseudo-Element
+          Pseudo-class
+
+!important
+h1{
+  colout:red !important; 
+}
+
+Inheritance in css:
+ 
+

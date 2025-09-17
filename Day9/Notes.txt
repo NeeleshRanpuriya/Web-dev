@@ -1,0 +1,49 @@
+Flexbox:
+   flaxible box layout:
+   it is one dimension layout method for arranging itms in rows or columns:
+    Main axis:
+    cross axis
+        display: flex;
+        flex-direction: column|row;  && row-reverse|column-reverse
+
+     Justify content:
+        Justify-contant:flex-start|end-start|center
+        
+      space-between
+          justify-content: space-around;
+          justify-content: space-between;
+          justify-content: space-evenly;
+          justify-content: baseline;
+          
+          context->justify
+
+      flex-wrap: set items are forced onto one line or can wrap anto multiples lines
+      flex-wrap:nowrap | wrap | 
+
+      align items
+       align-items: flex-end | flex start | center ;
+
+   align content:
+        align-contant: flex-start|flex-end|center;
+        align-contant: space-around|space-evenly|space-between
+        align-contant: baseline
+
+   align-self:align cross axis:
+
+         align-self:flex-start;
+         align-self:flex-end;
+         align-self:center;
+         align-self:baseline;
+
+   Flex-sizing:
+        flex-basis:100px; grow and less sizing
+        flex-grow: 1;
+        flex-shrink:1;
+
+Flex shortcut:
+   flex-grow: grow | shrink | bais -> 2 2 100px
+   flex-grow: grow | bais -> 2  100px
+   flex-grow:1;
+   flex-bais:100px
+
+

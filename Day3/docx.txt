@@ -1,0 +1,33 @@
+    <!-- Div is a container it is used to combine and make group  -->
+    <!-- Div is a block Element -->
+
+    <!-- Span is a container it is used to combine and make group  -->
+    <!-- Div is a block Inline -->
+
+    <!-- Heading & Paragraph  is a block Element -->
+    <!-- Anchor Tag & Image  is a Inline Element -->
+
+    <!-- Hr tag It is like a Devider -->
+
+    <!-- Seo friendly websides Are Search engine optimization -->
+
+    <!-- Tags are or two types
+         1)  Semantic Tag
+              like H1 H2 is a heading P by paragraph
+              Header 
+              Section
+         2) Non sementic Tag
+              like Div Spam use a Box
+         
+          
+         3) Section Are used To group Together Are store related content
+         4) Aside It is used To indirectly Related Data And link   
+         5) Nav used to Links Stored
+         6) ArtICAL tAG
+
+         -->
+
+          <!-- Super tag uss to Powers -->
+
+
+Emmit Documentation:-
