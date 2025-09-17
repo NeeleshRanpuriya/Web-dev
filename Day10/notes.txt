@@ -1,0 +1,11 @@
+CSS Grid:Direct child is work in this display
+    display:grid;
+    grid is a 2d layout
+
+    grid-lines
+    grid-cell
+    grid-track
+
+Grid template:
+  grid-template:rows;      grid-template-rows: 60px 60px 60px; this is 3 track
+  grid-template:columns; 
