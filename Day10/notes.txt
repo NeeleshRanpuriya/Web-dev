@@ -9,3 +9,25 @@ CSS Grid:Direct child is work in this display
 Grid template:
   grid-template:rows;      grid-template-rows: 60px 60px 60px; this is 3 track
   grid-template:columns; 
+
+  Repeat property : repeat is used to divide all avilable space
+  grid-template-row:repeat(count,1fr) -> fr frection
+
+Grid gaps:
+  row-gap:10px;
+  columns-gap:10px;
+  Short hand :  grid-gap : row | columns;
+
+grid columns:
+ grid-columns-start:line_number;
+ grid-columns-end:line_number;
+          &&
+grid-column: start/end
+grid-column: start/span number
+
+grid row:
+ grid-row-start:line_number;
+ grid-row-end:line_number;
+          &&
+grid-row: start/end
+grid-row: start/span number
