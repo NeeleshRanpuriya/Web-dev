@@ -1,0 +1,30 @@
+Clone:- cloning a repo on our local machine
+  git clone<-link->
+
+status:- display the state of the code
+  git status
+
+ls-a show hidden fil
+
+untracked : new file that git does't yet track
+modified:changed
+
+
+
+add & Commit
+    add- adds new or changed files in your working directory to the git stage area
+      git add<- name file ->
+
+    commit it is a record:
+        git commit -m " enter your message  "
+
+Git push commands:
+    git push origin name
+
+init command:
+git init
+git remote add origin https://github.com/NeeleshRanpuriya/taining.git
+git remote -v
+git branch
+git branch -m main
+
