@@ -1,5 +1,6 @@
-CSS Grid:Direct child is work in this display
-    display:grid;
+CSS Grid:Direct child is work in this display grid is a block item gr
+    display:grid;         //block
+    display:inline-grid; // inline
     grid is a 2d layout
 
     grid-lines
@@ -31,3 +32,56 @@ grid row:
           &&
 grid-row: start/end
 grid-row: start/span number
+
+justify-itms (container)
+align-items: (container)
+
+align-self:start|end|center;
+
+place-items: start;
+
+
+CSS animations: animate css element:
+
+@keyframes name{
+  from{font-size:20px;}
+  to{font-size:40px;}
+}
+animation-name: fontAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+
+    shorthand:
+    animation: name | duration | timing-function |count | direction
+
+  % of animation
+     @keyframes name{
+     0%{font-size:20px;}
+     50%{font-size:40px;}
+     100%{font-size:80px;}
+}
+
+Media Queries:
+  Help to create a responsive website:(Of Viewport)
+
+  @media(width:400px){
+    div{
+      background-colour:red;
+    }
+  }
+  min-width:
+  max-width:
+  orientation:lanscape
+
+Z-index:- it define which thing is upper and lower portion in our web page 
+          Control Over laping 
+
+    z-index:auto(0)
+    z-index:1/2/...
+    z-index:1/2/...
+
+
+ 

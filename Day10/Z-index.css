@@ -1,0 +1,23 @@
+div{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: pink;
+}
+
+.Box1{
+background-color: aquamarine;
+position: relative;
+z-index: 2;
+}
+
+.Box2{
+background-color: darksalmon;
+position: relative;
+bottom: 50px;
+
+}
+
+.Box3{
+background-color:pink;
+}

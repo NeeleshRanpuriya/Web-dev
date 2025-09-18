@@ -1,0 +1,11 @@
+This Is Project Day:
+  Basic Design Principle:
+  1) Color: COlour Wheel
+  2) Typeof graphy : Style and appreance of text
+        Google Fonts:1513 Fonts: fonts.google.com
+  3)Icons In Web pages:
+     Google Icons: Free icons 
+     Font Awsones:
+     CDNJS.com
+
+         

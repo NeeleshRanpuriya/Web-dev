@@ -1,0 +1,168 @@
+/* ---------- Responsive Design ---------- */
+
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .main {
+    margin: 0px 80px;
+    gap: 30px;
+    padding-bottom: 150px;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    width: auto;
+    font-size: 1.2em;
+  }
+
+  .box {
+    width: 350px;
+  }
+
+  #login {
+    width: 100%;
+  }
+
+  .footer {
+    width: 100%;
+    padding: 20px 10px;
+  }
+}
+
+/* Mobiles (max-width: 768px) */
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 20px;
+    padding: 20px 0px 100px 0px;
+    gap: 20px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2.2em;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 1.1em;
+    height: auto;
+  }
+
+  .data {
+    margin: 0px;
+    text-align: center;
+  }
+
+  .box {
+    width: 100%;
+    max-width: 360px;
+    margin-top: 20px;
+  }
+
+  #login {
+    width: 100%;
+  }
+
+  .footer {
+    width: 100%;
+    padding: 20px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .footer-links {
+    justify-content: center;
+  }
+}
+
+/* Small Mobiles (max-width: 480px) */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+
+  .box {
+    padding: 15px;
+    height: auto;
+  }
+
+  input {
+    height: 45px;
+    font-size: medium;
+  }
+
+  #login {
+    font-size: large;
+  }
+
+  .create {
+    width: 100%;
+    max-width: 250px;
+  }
+}
+
+/* ---------- Landscape Orientation ---------- */
+
+/* Tablets in Landscape */
+@media (max-width: 1024px) and (orientation: landscape) {
+  .main {
+    flex-direction: row;
+    margin: 0px 50px;
+    gap: 20px;
+    padding-bottom: 100px;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  .box {
+    width: 320px;
+  }
+}
+
+/* Mobiles in Landscape */
+@media (max-width: 768px) and (orientation: landscape) {
+  .main {
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 0px 10px;
+    padding: 20px 0px 50px 0px;
+    gap: 15px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 0.95em;
+  }
+
+  .box {
+    width: 250px;
+    padding: 15px;
+    height: auto;
+  }
+
+  input {
+    height: 40px;
+    font-size: small;
+  }
+
+  #login {
+    font-size: medium;
+  }
+}
