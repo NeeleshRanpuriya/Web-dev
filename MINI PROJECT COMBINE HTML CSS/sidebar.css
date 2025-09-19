@@ -7,10 +7,9 @@
 }
 
 .main_box{
-       background: url('photo.jpg');
+       background: linear-gradient(90deg, #4d1f0f 0%, #000000 60%);
        height: 100vh; 
        background-size: cover;
-
 }
 
 .btn_one i{

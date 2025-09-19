@@ -1,0 +1,37 @@
+.images .img1{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 30px;
+    left: 61%;
+}
+.images .img2{
+    height: 220px;
+    width: 160px;
+    position: absolute;
+    bottom: 0px;
+    left: 200px;
+    z-index: 1;
+}
+.images .img3{
+    height: 220px;
+    width: 160px;
+    position: absolute;
+    bottom: 150px;
+    left: 290px;
+}
+.images .img4{
+    height: 220px;
+    width: 160px;
+    position: absolute;
+    bottom: 115px;
+    right: 350px;
+}
+.images .img5{
+    height: 160px;
+    width: 220px;
+    position: absolute;
+    bottom: 0px;
+    right: 200px;
+}
+

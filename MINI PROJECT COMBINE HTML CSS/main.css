@@ -1,0 +1,111 @@
+.main{
+    background: linear-gradient(90deg, #4d1f0f 0%, #000000 60%);
+       /* height: 100vh;  */
+       background-size: cover;
+       margin: 0;
+       padding: 0;
+}
+.main-container{
+    height: 500px;
+    width: 1000px;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    color: white;
+   
+}
+.container{
+    padding: 20px;
+
+}
+.heading{
+    font-size: 55px;
+    text-align: center;
+
+}
+.design{
+    text-align: center;
+    color: orange;
+}
+.desc p{
+  text-align: center;
+  font-size: 20px;
+  color: gray;
+  margin-top: 25px;;
+}
+.download-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+/* Gradient Button */
+.Download {
+    background: linear-gradient(90deg, #fca13a, #f84e37);
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 18px 80px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(248, 78, 55, 0.4); /* halka shadow */
+}
+
+.Download:hover {
+    transform: scale(1.05);
+    opacity: 0.95;
+}
+
+/* Available on + lines */
+#Available {
+    font-size: 18px;
+    background: linear-gradient(90deg, #fca13a, #f84e37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 15px;
+    width: 100%; 
+}
+
+.he-line {
+   height: 2px;
+    width: 120px;   
+    background: #444;  
+}
+
+.available-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.available-icons div {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+
+.available-icons i {
+    font-size: 28px;
+    margin-bottom: 6px;
+    display: block;
+    color: white;
+    transition: 0.3s;
+}
+
+.available-icons i:hover {
+    color: #fca13a;
+    transform: scale(1.2);
+}
