@@ -1,11 +1,12 @@
-.images .img1{
+.images .img1 {
     height: 200px;
     width: 300px;
     position: absolute;
     top: 30px;
     left: 61%;
 }
-.images .img2{
+
+.images .img2 {
     height: 220px;
     width: 160px;
     position: absolute;
@@ -13,21 +14,24 @@
     left: 200px;
     z-index: 1;
 }
-.images .img3{
+
+.images .img3 {
     height: 220px;
     width: 160px;
     position: absolute;
     bottom: 150px;
-    left: 290px;
+    left: 300px;
 }
-.images .img4{
+
+.images .img4 {
     height: 220px;
     width: 160px;
     position: absolute;
     bottom: 115px;
     right: 350px;
 }
-.images .img5{
+
+.images .img5 {
     height: 160px;
     width: 220px;
     position: absolute;
@@ -35,3 +39,101 @@
     right: 200px;
 }
 
+.images .loader {
+    width: 21px;
+    height: 35px;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    position: absolute;
+    bottom: 0px;
+    left: 850px;
+    border-radius: 50% 50% 50% 50% / 25% 25% 25% 25%;
+}
+
+.loader::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 50%);
+    width: 5px;
+    height: 5px;
+    background: #FFF;
+    border-radius: 50%;
+    animation: fadeDown 1s ease-out infinite;
+}
+
+@keyframes fadeDown {
+    0% {
+        top: 0%;
+        opacity: 1;
+    }
+
+    100% {
+        top: 60%;
+        opacity: 0;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .images .img1 {
+        height: 160px;
+        width: 240px;
+        left: 60%;
+    }
+
+    .images .img2 {
+        height: 176px;
+        width: 128px;
+        left: 150px;
+    }
+
+    .images .img3 {
+        height: 176px;
+        width: 128px;
+        bottom: 120px;
+        left: 250px;
+    }
+
+    .images .img4 {
+        height: 176px;
+        width: 128px;
+        bottom: 92px;
+        right: 280px;
+    }
+
+    .images .img5 {
+        height: 128px;
+        width: 176px;
+        right: 160px;
+    }
+
+    .images .loader {
+        left: 680px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .images .img1,
+    .images .img2,
+    .images .img3,
+    .images .img4,
+    .images .img5 {
+        position: relative;
+        width: 90%;
+        height: auto;
+        left: auto;
+        right: auto;
+        bottom: auto;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .images .loader {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 10px;
+    }
+}

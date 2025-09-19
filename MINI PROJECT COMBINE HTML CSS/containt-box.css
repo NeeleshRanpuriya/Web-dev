@@ -1,0 +1,209 @@
+.containt-box {
+    padding-top: 400px;
+    background-color: black;
+    height: 100vh;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.containt-box .big-img {
+    height: 600px;
+    width: 80%;
+    border-radius: 30px;
+    /* padding-top: 50px; */
+}
+
+.containt-box .retouch {
+    font-size: 30px;
+    color: rgba(255, 98, 0, 0.892);
+}
+
+.containt-box .heading2 {
+    width: 1200px;
+    height: 105px;
+    font-size: 46px;
+    align-items: center;
+    text-align: center;
+}
+
+.containt-box .desc2 {
+    text-align: center;
+    width: 1200px;
+    height: 105px;
+    font-size: 20px;
+    color: gray;
+    margin: 50px 0px 30px 20px;
+}
+
+.containt-box .free-download-btn {
+    background: linear-gradient(90deg, #fca13a, #f84e37);
+    color: #fff;
+    font-size: 20px;
+    padding: 18px 80px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(248, 78, 55, 0.4);
+    margin-top: 30px;
+    height: 55px;
+    width: 150px;
+    margin: 20px 10px 50px 30px;
+}
+
+.free-download-btn:hover {
+    background: linear-gradient(20deg, #fca13a, #f84e37);
+}
+
+.itms-main {
+    height: 80px;
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+    position: absolute;
+    top: 1750px;
+}
+
+.containt-box .items {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.containt-box .items li {
+    height: 80px;
+    width: 80px;
+    background: linear-gradient(90deg, #fca13a, #f84e37);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    transition: 0.3s ease;
+}
+
+.items i {
+    font-size: 30px;
+    color: white;
+    transition: 0.3s;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .containt-box {
+        padding-top: 300px;
+        height: 300px;
+    }
+
+    .containt-box .big-img {
+        height: 450px;
+        width: 85%;
+    }
+
+    .containt-box .retouch {
+        font-size: 26px;
+    }
+
+    .containt-box .heading2 {
+        width: 90%;
+        font-size: 40px;
+        height: auto;
+    }
+
+    .containt-box .desc2 {
+        width: 90%;
+        font-size: 18px;
+        height: auto;
+        margin: 30px 0 20px 10px;
+    }
+
+    .containt-box .free-download-btn {
+        padding: 15px 70px;
+        font-size: 18px;
+        width: 130px;
+        height: 45px;
+        margin: 15px 10px 30px 15px;
+    }
+
+    .itms-main {
+        width: 80%;
+        top: 1400px;
+    }
+
+    .containt-box .items li {
+        height: 60px;
+        width: 60px;
+    }
+
+    .items i {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .containt-box {
+        padding-top: 150px;
+        height: auto;
+        min-height: 250px;
+    }
+
+    .containt-box .big-img {
+        height: 300px;
+        width: 90%;
+    }
+
+    .containt-box .retouch {
+        font-size: 22px;
+    }
+
+    .containt-box .heading2 {
+        width: 95%;
+        font-size: 30px;
+        height: auto;
+    }
+
+    .containt-box .desc2 {
+        width: 95%;
+        font-size: 16px;
+        height: auto;
+        margin: 20px 0 15px 5px;
+    }
+
+    .containt-box .free-download-btn {
+        padding: 12px 50px;
+        font-size: 16px;
+        width: 120px;
+        height: 35px;
+        margin: 10px auto;
+    }
+
+    .itms-main {
+        width: 90%;
+        top: auto;
+        position: relative;
+        margin: 20px auto;
+    }
+
+    .containt-box .items {
+        gap: 15px;
+    }
+
+    .containt-box .items li {
+        height: 50px;
+        width: 50px;
+    }
+
+    .items i {
+        font-size: 20px;
+    }
+}

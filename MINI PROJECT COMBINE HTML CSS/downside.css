@@ -1,0 +1,135 @@
+.down {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-around;
+    padding-top: 530px;
+}
+
+.down-side {
+    height: 1000px;
+    width: 600px;
+    background-color: white;
+    align-items: center;
+    text-align: left;
+    padding: 0;
+    margin-left: 180px;
+}
+
+.down-side .paragraph2 {
+    font-size: 25px;
+    color: rgba(255, 98, 0, 0.892);
+    padding-top: 50px;
+}
+
+.down-side .heading3 {
+    width: 520px;
+    height: 158px;
+    font-size: 45px;
+    text-align: left;
+    font-weight: 700;
+}
+
+.down-side .desc3 {
+    margin-top: 40px;
+    text-align: justify;
+    font-size: 20px;
+    color: gray;
+}
+
+.img-new {
+    height: 750px;
+    width: 550px;
+    border-radius: 20px;
+    margin-right: 200px;
+}
+
+.free-download-btn-two {
+    background: linear-gradient(90deg, #fca13a, #f84e37);
+    color: #fff;
+    font-size: 20px;
+    padding: 18px 80px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(248, 78, 55, 0.4);
+    margin-top: 30px;
+    height: 40px;
+    width: 150px;
+    margin: 20px 10px 50px 30px;
+}
+
+.free-download-btn-two:hover {
+    background: black;
+    border: 1px solid rgba(255, 98, 0, 0.892);
+    color: white;
+}
+
+
+@media (max-width: 1024px) {
+    .down {
+        padding-top: 300px;
+    }
+
+    .down-side {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .down-side .heading3 {
+        font-size: 35px;
+        width: 100%;
+    }
+
+    .img-new {
+        width: 80%;
+        height: auto;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 768px) {
+    .down {
+        flex-direction: column;
+        padding-top: 60px;
+        align-items: center;
+    }
+
+    .down-side {
+        width: 90%;
+        height: auto;
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .down-side .paragraph2 {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .down-side .heading3 {
+        font-size: 25px;
+        height: auto;
+    }
+
+    .down-side .desc3 {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .free-download-btn-two {
+        padding: 12px 50px;
+        font-size: 16px;
+        width: 120px;
+        height: 30px;
+        margin: 20px auto;
+    }
+
+    .img-new {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+}
