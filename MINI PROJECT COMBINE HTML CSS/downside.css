@@ -1,4 +1,6 @@
 .down {
+    width: 100%;
+    height: 900px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -6,23 +8,53 @@
     padding-top: 530px;
 }
 
+#down {
+    width: 100%;
+    height: 930px;
+    padding-top: 90px;
+    padding-left: 40px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#img-box {
+    height: 760px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .down-side {
-    height: 1000px;
+    height: 930px;
     width: 600px;
     background-color: white;
     align-items: center;
     text-align: left;
     padding: 0;
-    margin-left: 180px;
+    margin-left: 100px;
 }
 
-.down-side .paragraph2 {
+#down-side {
+    height: 700px;
+    width: 650px;
+    margin: 0px;
+    background-color: white;
+    align-items: center;
+    text-align: left;
+    padding: 0;
+    /* border: 2px solid red; */
+}
+
+.down-side .paragraph2, #down-side .paragraph2 {
     font-size: 25px;
     color: rgba(255, 98, 0, 0.892);
     padding-top: 50px;
 }
 
-.down-side .heading3 {
+.down-side .heading3, #down-side .heading3 {
     width: 520px;
     height: 158px;
     font-size: 45px;
@@ -30,7 +62,7 @@
     font-weight: 700;
 }
 
-.down-side .desc3 {
+.down-side .desc3, #down-side .desc3 {
     margin-top: 40px;
     text-align: justify;
     font-size: 20px;
@@ -39,97 +71,241 @@
 
 .img-new {
     height: 750px;
-    width: 550px;
+    width: 600px;
     border-radius: 20px;
-    margin-right: 200px;
+    margin-right: 0px;
+}
+
+#img-new {
+    height: 750px;
+    width: 600px;
+    border-radius: 20px;
+    margin-right: 0px;
+    margin: 0px;
+    height: 650px;
+    width: 650px;
 }
 
 .free-download-btn-two {
-    background: linear-gradient(90deg, #fca13a, #f84e37);
+    background: black;
     color: #fff;
     font-size: 20px;
     padding: 18px 80px;
     border-radius: 50px;
     cursor: pointer;
     transition: 0.3s ease;
-    display: inline-block;
     text-align: center;
-    box-shadow: 0px 4px 15px rgba(248, 78, 55, 0.4);
-    margin-top: 30px;
     height: 40px;
     width: 150px;
-    margin: 20px 10px 50px 30px;
+    margin: 50px 0px 50px 0px;
 }
 
 .free-download-btn-two:hover {
-    background: black;
-    border: 1px solid rgba(255, 98, 0, 0.892);
-    color: white;
+    background: white;
+    color: black;
+    border: 1px solid black;
 }
 
-
+/* Responsive Design for Tablet (1024px) */
 @media (max-width: 1024px) {
     .down {
-        padding-top: 300px;
+        padding-top: 40px;
+    }
+
+    #down {
+        padding-top: 70px;
+        padding-left: 30px;
+    }
+
+    #img-box {
+        height: 600px;
+        width: 480px;
     }
 
     .down-side {
-        width: 80%;
-        margin-left: 10%;
+        height: 800px;
+        width: 500px;
+        margin-left: 80px;
     }
 
-    .down-side .heading3 {
-        font-size: 35px;
-        width: 100%;
+    #down-side {
+        height: 600px;
+        width: 550px;
+    }
+
+    .down-side .paragraph2, #down-side .paragraph2 {
+        font-size: 22px;
+        padding-top: 40px;
+    }
+
+    .down-side .heading3, #down-side .heading3 {
+        font-size: 38px;
+        width: 450px;
+        height: 140px;
+    }
+
+    .down-side .desc3, #down-side .desc3 {
+        font-size: 18px;
+        margin-top: 30px;
     }
 
     .img-new {
-        width: 80%;
-        height: auto;
-        margin-right: 10%;
+        height: 600px;
+        width: 480px;
+    }
+
+    #img-new {
+        height: 520px;
+        width: 520px;
+    }
+
+    .free-download-btn-two {
+        padding: 15px 70px;
+        font-size: 18px;
+        height: 35px;
+        width: 130px;
+        margin: 40px 0px 40px 0px;
     }
 }
 
-@media (max-width: 768px) {
+/* Responsive Design for Mobile (Portrait) */
+@media (max-width: 768px) and (orientation: portrait) {
     .down {
         flex-direction: column;
-        padding-top: 60px;
+        padding-top: 200x;
         align-items: center;
+        height: auto;
+    }
+
+    #down {
+        flex-direction: column;
+        padding-top: 50px;
+        padding-left: 20px;
+        height: auto;
+        margin-top: 20;
+    }
+
+    #img-box {
+        height: 400px;
+        width: 320px;
     }
 
     .down-side {
+        height: 400px;
         width: 90%;
-        height: auto;
         margin-left: 0;
         padding: 10px;
     }
 
-    .down-side .paragraph2 {
-        font-size: 20px;
+    #down-side {
+        height: 500px;
+        width: 90%;
+    }
+
+    .down-side .paragraph2, #down-side .paragraph2 {
+        font-size: 18px;
         padding-top: 20px;
     }
 
-    .down-side .heading3 {
+    .down-side .heading3, #down-side .heading3 {
         font-size: 25px;
+        width: 90%;
         height: auto;
     }
 
-    .down-side .desc3 {
-        font-size: 16px;
+    .down-side .desc3, #down-side .desc3 {
+        font-size: 14px;
         margin-top: 20px;
     }
 
-    .free-download-btn-two {
-        padding: 12px 50px;
-        font-size: 16px;
-        width: 120px;
-        height: 30px;
+    .img-new {
+        height: 400px;
+        width: 320px;
         margin: 20px auto;
     }
 
-    .img-new {
-        width: 90%;
+    #img-new {
+        height: 400px;
+        width: 320px;
+        margin: 20px auto;
+    }
+
+    .free-download-btn-two {
+        padding: 10px 50px;
+        font-size: 16px;
+        height: 30px;
+        width: 120px;
+        margin: 30px auto;
+    }
+}
+
+/* Responsive Design for Mobile (Landscape) */
+@media (max-width: 768px) and (orientation: landscape) {
+    .down {
+        flex-direction: column;
+        padding-top: 150px;
+        align-items: center;
         height: auto;
+    }
+
+    #down {
+        flex-direction: column;
+        padding-top: 40px;
+        padding-left: 15px;
+        height: auto;
+        margin-top: 0;
+    }
+
+    #img-box {
+        height: 350px;
+        width: 280px;
+    }
+
+    .down-side {
+        height: 500px;
+        width: 80%;
+        margin-left: 0;
+        padding: 5px;
+    }
+
+    #down-side {
+        height: 450px;
+        width: 80%;
+    }
+
+    .down-side .paragraph2, #down-side .paragraph2 {
+        font-size: 16px;
+        padding-top: 15px;
+    }
+
+    .down-side .heading3, #down-side .heading3 {
+        font-size: 22px;
+        width: 85%;
+        height: auto;
+    }
+
+    .down-side .desc3, #down-side .desc3 {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+
+    .img-new {
+        height: 350px;
+        width: 280px;
+        margin: 15px auto;
+    }
+
+    #img-new {
+        height: 350px;
+        width: 280px;
+        margin: 15px auto;
+    }
+
+    .free-download-btn-two {
+        padding: 8px 40px;
+        font-size: 14px;
+        height: 25px;
+        width: 100px;
         margin: 20px auto;
     }
 }
