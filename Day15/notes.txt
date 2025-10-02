@@ -3,3 +3,13 @@ File link Js in Html:
 
 Templates Litrals:
     `Total pay ${pencilPrice+erasorPrice} Rupess`
+
+Conditional Statement:
+
+if-else;
+nestes if-else
+Switch
+
+
+Alert And Prompt:
+
