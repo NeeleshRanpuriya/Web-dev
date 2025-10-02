@@ -1,7 +1,7 @@
 .containt-box {
     padding-top: 400px;
     background-color: black;
-    height: 100vh;
+    /* height: 100vh; */
     height: 350px;
     width: 100%;
     display: flex;

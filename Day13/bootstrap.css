@@ -1,0 +1,13 @@
+.container-md{
+    background: pink;
+}
+
+/* .btn-primary{
+    background-color: pink;
+} */
+ .card{
+    width: 1000px;
+    display: flex;
+    height: 100px;
+    width: 200px;
+ }

@@ -6,5 +6,29 @@ BOOTSTRAP: it is a framework:
 
 
     Container layout:
+     container is most basic layout in Web Dev
+            .container	
+            .container-sm	
+            .container-md	
+            .container-lg	
+            .container-xl	
+            .container-xxl
+            .container-fluid	
+
+      Button: 
+      <button type="button" class="btn">Base class</button>
+
+
+      Badges:-
+
+
+      Component-alert:
+        
+
+      Button Group:
+
+
+
+      Nav-Bar
       
      
