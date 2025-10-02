@@ -1,0 +1,5 @@
+File link Js in Html:
+
+
+Templates Litrals:
+    `Total pay ${pencilPrice+erasorPrice} Rupess`

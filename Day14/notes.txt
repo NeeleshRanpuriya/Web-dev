@@ -1,0 +1,58 @@
+Java Day 1:
+   Funtionality Using Java Script
+   Consol window work in read-evaluate-print-Loop (REPL)
+
+Variable in Java Script:
+   name of a storage location 
+   Ex:- a=10 , b=20 
+
+Data stypes in Js:
+*typeof()
+  ---Number--- 
+      +ve ...... -ve
+  ---Boolean---
+  ---String---
+  ---Undefined---
+  ---Null---   this is a object
+  ---Bigint--- 
+  ---Symbol---
+
+
+Oprerator in JS:
+ Addition(+) , Subtraction(-) , Multiplication(*) , divisible(/) , Power (2**3) , Remainder(%)
+ 
+ Oprerator Precedence:
+ ()  >>  ** >> *,/,% >> +,-
+
+Assignment Oprerator:
+   age+=1;
+   age-=1;
+   age*=2;
+
+Unary Oprerator
+   age++;  Increment pre/post
+   age--;  Decrement pre/post
+
+Boolean type:
+
+True / False;
+
+NaN in JS (NOT-A-NUMBER):
+
+Let Keyword in Java Script:
+
+ let age=23;
+ const name="neelesh";
+
+Identifier Rules:
+  Variable Names Never Repeat:
+  Variable Are case sensitive
+  Java scrept keyword never use as a Variable
+
+String:
+
+name="Neelesh"
+role='Software Engineer'
+char ='b'
+num='7'
+
