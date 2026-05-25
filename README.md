@@ -9,6 +9,8 @@
   <img src="https://img.shields.io/badge/HTML-Structure-orange?style=for-the-badge" />
   <img src="https://img.shields.io/badge/CSS-Styling-2965f1?style=for-the-badge" />
   <img src="https://img.shields.io/badge/JavaScript-Logic-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwindcss" />
+  <img src="https://img.shields.io/badge/Bootstrap-Framework-7952B3?style=for-the-badge&logo=bootstrap" />
 </p>
 
 ---
@@ -29,7 +31,8 @@ In this series, you will learn how to create modern, responsive, and interactive
 - **HTML** – Structure of a webpage
 - **CSS** – Styling and layout design
 - **JavaScript** – Website logic and interactivity
-- **Libraries** – Useful tools to make development easier and faster
+- **Tailwind CSS** – Utility-first CSS framework for fast and modern UI design
+- **Bootstrap** – Popular CSS framework for responsive and ready-made components
 
 ---
 
